@@ -43,7 +43,7 @@
                 <li class='nav-item '><a class="nav-link mr-5" href="index.html"><span class=''> Home</span></a></li>
                 <li class='nav-item '><a class="nav-link mr-5" href='./aboutus.html'>About</a></li>
                 <li class='nav-item '><a class="nav-link mr-5" href='#'>Products</a></li>
-                <li class='nav-item '><a class="nav-link mr-5" href='./cntc/contact.html'>ContactUs(Enquiry)  </a></li>
+                <li class='nav-item '><a class="nav-link mr-5" href='./cntc/contact.html'>ContactUs(Inquiry)  </a></li>
                 <li class='nav-item '><a class="nav-link mr-5" href='#'>Services  </a></li>
             </ul>
            
@@ -74,15 +74,14 @@
 
 #Receive user input
 $email_address = $_POST['email'];
-$feedback = $_POST['name'];
-
+$feedback = "Name :" .$_POST["name"] ."\n" . " Email is ".$_POST["email"]."\n". "Message is ".$_POST["message"];
 
 
 
 
 #Send email
 $headers = "From: $email_address";
-$sent = mail('ashikpatel444@gmail.com', 'Feedback Form Submission', $feedback, $headers);
+$sent = mail('viralkhant3012@gmail.com', 'someone asking about the deal', $feedback, $headers);
 ?>
 
   <section class="content-section color-light  text-center" id="services">
@@ -92,7 +91,7 @@ $sent = mail('ashikpatel444@gmail.com', 'Feedback Form Submission', $feedback, $
          $s=( $_POST['name'] );
         echo $s;
         
-        ?>. We will Get back to you ASAP.  </h2>
+        ?>. We will Get back to you soon.  </h2>
       </div>
       
     </div>
@@ -107,10 +106,10 @@ $sent = mail('ashikpatel444@gmail.com', 'Feedback Form Submission', $feedback, $
             <i class="fa fa-list"></i>
           </span>
           <h4>
-            <strong>Go to Enquiry Page</strong>
+            <strong>Go to Inquiry Page</strong>
           </h4>
           <p class="text-faded mb-0 inner-text">The very first setp is to go to
-            our enquiry page where you have to fill up the given form.
+            our Inquiry page where you have to fill up the given form.
           </p>
         </div>
         
@@ -119,9 +118,9 @@ $sent = mail('ashikpatel444@gmail.com', 'Feedback Form Submission', $feedback, $
             <i class="fa fa-user-circle"></i>
           </span>
           <h4>
-            <strong>Examine the enquiry</strong>
+            <strong>Examine the Inquiry</strong>
           </h4>
-          <p class="text-faded inner-text mb-0">After Evaluating your enquiry, we will get back to you within one day.</p>
+          <p class="text-faded inner-text mb-0">After Evaluating your Inquiry, we will get back to you within one day.</p>
         </div>
         <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
