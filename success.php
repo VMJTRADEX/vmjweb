@@ -137,21 +137,48 @@ $sent = mail('viralkhant3012@gmail.com', 'someone asking about the deal', $feedb
   </section>
 
   <!-- Map -->
-  <section class="content-section  new-sec3 text-center" id="services">
+  <section class="content-section mt-4  new-sec2 text-center" id="services">
     <div class="container">
       <div class="content-section-heading">
-        <h2 class="mb-5">Address </h2>
+        <h2 class="mb-5">Address &  Direct Contact Details </h2>
       </div>
       <div class="row  row-content justify-content-center">
-        <div class="col-lg-12 col-md-12 mb-12 mb-lg-0">
+        <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto color-icon  mb-3">
             <i class="fa fa-home"></i>
           </span>
           <h4>
-            <strong>At- Rajkot,Nehru Nagar,387461 State: Gujarat, India </strong>
+            <strong> 230, Maruti nandan appartment, Krushnagar Main Road, Rajkot -360004 </strong>
           </h4>
           <p class="text-faded mb-0 color-innner-text"></p>
         </div>
+        <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto color-icon  mb-3">
+              <i class="fa fa-phone"></i>
+            </span>
+            <h4>
+              <strong> +91 9998484902</strong></br>
+              <strong> +91 8866819229</strong>
+
+            </h4>
+            <p class="text-faded mb-0 color-innner-text"></p>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto color-icon  mb-3">
+              <i class="fa fa-envelope"></i>
+            </span>
+            <h4>
+              <strong> <a > vmjtradex@outlook.com</a></strong></br>
+              <strong> <a> info@vmjtradex.com</a></strong>
+
+            </h4>
+            <p class="text-faded mb-0 color-innner-text"></p>
+          </div>
+       
+       
+      </div>
+      <div class="row  row-content justify-content-center mt-5">
+        
        
       </div>
     </div>
