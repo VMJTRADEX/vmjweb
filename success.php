@@ -158,7 +158,7 @@ $sent = mail('viralkhant3012@gmail.com', 'someone asking about the deal', $feedb
             </span>
             <h4>
               <strong> +91 9998484902</strong></br>
-              <strong> +91 8866819229</strong>
+              
 
             </h4>
             <p class="text-faded mb-0 color-innner-text"></p>
