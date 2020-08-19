@@ -81,7 +81,7 @@ $feedback = "Name :" .$_POST["name"] ."\n" . " Email is ".$_POST["email"]."\n". 
 
 #Send email
 $headers = "From: $email_address";
-$sent = mail('viralkhant3012@gmail.com', 'someone asking about the deal', $feedback, $headers);
+$sent = mail('Vmjtradex@outlook.com', 'someone asking about the deal', $feedback, $headers);
 ?>
 
   <section class="content-section color-light  text-center" id="services">
